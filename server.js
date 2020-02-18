@@ -28,8 +28,8 @@ app.get("/product",(req,res)=>{
         headingInfo : "Product PAge",
     });
 });
-const port = process.env.port || 3000;
-app.listen(port,()=>{
+const PORT = process.env.PORT || 3000;
+app.listen(PORT,()=>{
 
     console.log(`Web server is up and running`);
 })
